@@ -124,7 +124,7 @@ p {
 }
 
 
-/* Style for Intro Modal */
+/* Intro Modal */
 
 .intro_modal {
 	position: absolute;
@@ -165,7 +165,7 @@ p {
 }
 
 
-/* Styles for Game Over Modal */
+/* Game Over Modal */
 
 .modal_background {
 	position: absolute;
@@ -199,14 +199,9 @@ p {
 	font-family: cursive;
 }
 
-.modal_close {
-	font-size: 15px;
-	font-weight: bold;
-}
-
 .modal_title {
 	font-family: cursive;
-	padding: 0 120px;
+  padding: 0 120px;
 }
 
 .modal_info {
