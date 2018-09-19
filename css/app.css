@@ -1,0 +1,233 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #ffffff url('../img/fgo.png');
+	/* Background courtesy of TypeMoon */
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: cursive;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+h1 {
+	font-weight: 300;
+	font-size: 60px;
+	padding: 0 0 20px 0;
+	color: #103e96;
+}
+
+p {
+	font-size: 18px;
+	font-family: sans-serif;
+	color: #191371;
+}
+
+
+/*
+ * Styles for the deck of cards
+ */
+
+.deck {
+	width: 660px;
+	min-height: 680px;
+	background: linear-gradient(160deg, #b52f49 0%, #210c0b 100%);
+	padding: 32px;
+	border-radius: 10px;
+	box-shadow: 12px 15px 20px 0 rgba(80, 80, 62, 0.5);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 0 3em;
+}
+
+.deck .card {
+	height: 125px;
+	width: 125px;
+	background: #a09164;
+	font-size: 0;
+	color: #191371;
+	border-radius: 8px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+}
+
+.deck .card.open {
+	transform: rotateY(0);
+	background: #d4d2cb;
+	cursor: default;
+}
+
+.deck .card.show {
+	font-size: 33px;
+}
+
+.deck .card.match {
+	cursor: default;
+	background: #646567;
+	font-size: 33px;
+}
+
+
+/*
+ * Styles for the Score Panel
+ */
+
+.score-panel {
+	text-align: left;
+	width: 500px;
+	font-size: 20px;
+	margin-bottom: 10px;
+	color: #62129c
+}
+
+.score-panel .stars {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.score-panel .stars li {
+	list-style: none;
+	display: inline-block;
+}
+
+.score-panel .restart {
+	float: right;
+	cursor: pointer;
+}
+
+
+/* Intro Modal */
+
+.intro_modal {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(123, 125, 21, 0.4);
+}
+
+.intro_modal_body {
+	position: relative;
+	width: 650px;
+	top: 50%;
+	left: 50%;
+	background: #cac8c4;
+	transform: translate(-50%, -70%);
+	text-align: center;
+	border: 3px solid #94938c;
+	border-radius: 20px;
+}
+
+.heading {
+	font-family: cursive;
+	font-size: 30px;
+	padding: 0 200px;
+	display: flex;
+}
+
+.intro_modal_button {
+	width: 200px;
+	height: 75px;
+	border-radius: 7px;
+	cursor: pointer;
+	background-color: #a58926;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+
+/* Game Over Modal */
+
+.modal_background {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(123, 125, 21, 0.4);
+}
+
+.modal_body {
+	position: relative;
+	width: 420px;
+	text-align: center;
+	border: 3px solid #94938c;
+	border-radius: 20px;
+	font-size: 18px;
+	color: #191371;
+	background: #cac8c4;
+}
+
+.modal_heading {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10px;
+	border-bottom: 1px solid #b3afaf;
+	font-family: cursive;
+}
+
+.modal_close {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.modal_title {
+	font-family: cursive;
+}
+
+.modal_info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 0 20px 0;
+	border-bottom: 1px solid #b3afaf;
+}
+
+.modal_buttons {
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+.modal_button {
+	width: 100px;
+	height: 50px;
+	background-color: #a58926;
+}
+
+.hide {
+	display: none;
+}
