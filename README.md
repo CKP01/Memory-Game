@@ -44,6 +44,6 @@ Hides the game over modal and displays the game board.
 - [Font-awesome](https://fontawesome.com/icons?d=gallery), for their incredible library of icons
 
 ## Disclaimer
-FSN and the background belongs to TypeMoon :copyright:. 
+FSN and the background belongs to TypeMoon :copyright:.  
 
 
