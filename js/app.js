@@ -268,3 +268,4 @@ function cardReset() {
         card.className = 'card';
     }
 }
+ 
