@@ -207,7 +207,7 @@ document.querySelector('.intro_modal_button').addEventListener('click', toggleIn
 /* gameReset() resets the game with a new shuffled board as well as timer set to
 0:00, moves at 0, and the star count at 3.*/
 function gameReset() {
-    matched = 0;
+    toggledCards = [];
     shuffleDeck();
     resetClock();
     cardReset();
