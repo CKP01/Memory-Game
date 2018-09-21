@@ -38,7 +38,7 @@ Resets the game board and counters.
 Hides the game over modal and displays the game board.
 
 ##  Acknowledgements 
-- [Udacity] (https://www.udacity.com/), 
+- [Udacity](https://www.udacity.com/), 
 - [jQuery]
 - [Mozilla Developer Network]
 - [font-awesome]
