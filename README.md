@@ -38,10 +38,10 @@ Resets the game board and counters.
 Hides the game over modal and displays the game board.
 
 ##  Acknowledgements 
-- [Udacity](https://www.udacity.com/), 
-- [jQuery]
-- [Mozilla Developer Network]
-- [font-awesome]
+- [Udacity](https://www.udacity.com/), for providing me with education, detailed lessons, and support
+- [jQuery](https://jquery.com/), for creating useful shortcuts that save time
+- [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript), for their detailed information on JS, HTML, and CSS
+- [font-awesome](https://fontawesome.com/icons?d=gallery), for their incredible library of icons
 
 ## Disclaimer
 FSN and the background belongs to TypeMoon :copyright:. 
