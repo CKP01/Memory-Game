@@ -3,6 +3,7 @@
 - Project Overview
 - Gameplay
 - Specifications
+- Acknowledgements 
 - Disclaimer
 
 
@@ -35,6 +36,12 @@ Toggled once all 8 pairs have been formed and displays the time, moves, and star
 Resets the game board and counters.
 #### Cancel Button
 Hides the game over modal and displays the game board.
+
+##  Acknowledgements 
+- [Udacity] (https://www.udacity.com/), 
+- [jQuery]
+- [Mozilla Developer Network]
+- [font-awesome]
 
 ## Disclaimer
 FSN and the background belongs to TypeMoon :copyright:. 
